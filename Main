@@ -1,0 +1,28 @@
+package herança;
+
+import herança.Carro;
+import herança.Moto;
+
+public class Main {
+public static void main(String[] args) {
+
+Carro camaro = new Carro("Chevrolet", "camaro", "Amarelo", 2, 461);
+System.out.println("\n*********************************\n" +
+"\nINFORMAÇÔES\n" +
+"\n*********************************\n" +
+
+"\nMarca: " + camaro.getMarca() +
+"\nModelo: " + camaro.getModelo() +
+"\nCor: " + camaro.getCor() +
+"\nNúmero de Portas: " + camaro.getNmrPortas() +
+"\nPotencia em Cavalos: " + camaro.getPotenciaCV());
+
+Moto kawazaki = new Moto("Kawazaki", "Kawazaki Ninja", "Verde", 300);
+System.out.println("\n**********************************\n" +
+"\nMarca: " + kawazaki.getMarca() +
+"\nModelo: " + kawazaki.getModelo() +
+"\nCor: " + kawazaki.getCor() +
+"\nCilindradas: " + kawazaki.getCilindrada());
+
+    }
+    }
