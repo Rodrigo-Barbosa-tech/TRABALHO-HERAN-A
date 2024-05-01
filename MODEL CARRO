@@ -1,0 +1,30 @@
+package modelHerança;
+
+public class Carro extends Veiculo {
+
+private int NmrPortas;
+private int PotenciaCV;
+
+public Carro(String Marca, String Modelo, String Cor, int NmrPortas, int PotenciaCV) {
+super(Marca, Modelo, Cor);
+this.NmrPortas = NmrPortas;
+this.PotenciaCV = PotenciaCV;
+}
+
+public int getNmrPortas() {
+return NmrPortas;
+}
+
+public int getPotenciaCV() {
+return PotenciaCV;
+}
+
+public void setNumeroPortas(int NumeroPortas) {
+this.NmrPortas = NmrPortas;
+}
+
+public void PotenciaCV(int PotenciaCV) {
+this.PotenciaCV = PotenciaCV;
+
+}
+}
